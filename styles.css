@@ -1,0 +1,285 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+img {
+  padding: 5% 7% 10% 7%;
+}
+
+/* Navbar Styling */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: grey;
+}
+
+.header .navbar {
+  background-color: black;
+  color: #fff;
+  padding: 0 2rem 0;
+}
+
+/* Home Page */
+#title {
+  background-color: #13315c;
+  color: #fff;
+}
+
+#first {
+  background-color: #d6e4f0;
+  color: #0B2545;
+}
+
+#second {
+  background-color: #f6f6f6;
+  color: #0B2545;
+}
+
+#fourth {
+  background-color: #13315c;
+  color: #fff;
+  line-height: 1.5rem;
+  padding: -2rem;
+}
+
+#fourth i {
+  padding: 2% 2%;
+  font-size: 1.5rem;
+}
+
+.music-culture {
+  text-align: center;
+  color: #0B2545;
+}
+
+.music-culture p {
+  color: #2a363b;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.social {
+  text-align: center;
+}
+
+.Music {
+  font-size: 4.5rem;
+}
+
+.mytitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  padding-right: 2rem;
+}
+
+.container-fluid {
+  padding: 5% 12% 5%;
+}
+
+.container-fluid.premium {
+  padding: 5% 18% 5%;
+}
+
+/* Premium Page */
+#premiumfoot {
+  background-color: black;
+  color: #fff;
+  line-height: 1.5rem;
+  padding: -2rem;
+}
+
+#premiumfoot i {
+  padding: 2% 2%;
+  font-size: 1.5rem;
+}
+
+.premium {
+  font-weight: 500;
+  text-align: center;
+}
+
+.premfirst {
+  background-color: #698474;
+  text-align: center;
+}
+
+.premsecond {
+  background-color: #fcf8f3;
+  text-align: center;
+  color: #393e46;
+}
+
+.premthird {
+  text-align: center;
+  background-color: #ffaaa5;
+}
+
+.premthird p {
+  padding: 0 15%;
+  color: black;
+  font-size: 0.65rem;
+  font-weight: bold;
+}
+
+.premsecond i {
+  padding: 15%;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 3% 3% 3% 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.btnfeature {
+  border-radius: 12px;
+  background-color: #13315c;
+  opacity: 1;
+}
+
+.btnfeature:hover {
+  background-color: #0B2545;
+  opacity: 0.8;
+}
+
+/* Login page */
+html, body {
+  background-color: #112d4e;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  color: #fff;
+  font-family: 'Numans', sans-serif;
+}
+
+.container {
+  height: 100%;
+  align-content: center;
+}
+
+.card {
+  height: 450px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 450px;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.social_icon span {
+  font-size: 60px;
+  margin-left: 10px;
+  color: #dbe2ef;
+}
+
+.social_icon span:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.card-header h3 {
+  color: white;
+}
+
+.social_icon {
+  position: absolute;
+  right: 20px;
+  top: -45px;
+}
+
+.input-group-prepend span {
+  width: 50px;
+  background-color: #f9f7f7;
+  color: black;
+  border: 0 !important;
+}
+
+input:focus {
+  outline: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.remember {
+  color: white;
+}
+
+.remember input {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.login_btn {
+  color: black;
+  background-color: #f9f7f7;
+  width: 100px;
+}
+
+.login_btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.links {
+  color: white;
+}
+
+.links a {
+  margin-left: 4px;
+}
+
+/* Payments */
+.padding {
+  padding: 5rem !important
+}
+
+.form-control:focus {
+  box-shadow: 10px 0px 0px 0px #ffffff !important;
+  border-color: #4ca746
+}
